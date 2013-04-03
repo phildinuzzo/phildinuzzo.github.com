@@ -9,7 +9,12 @@ h1 {
 
 .leftside {
 	margin: 0px auto auto 55px;
-	padding: 50px;
+	padding: 30px;
+}
+
+.rightside {
+	margin-left: 85px;
+
 }
 
 #font {
@@ -21,7 +26,9 @@ h1 {
 	display: block;
 	margin-top: 57px;
 	padding: 2px;
-  border:5px solid #021a40;
+  border:5px solid black;
+  width: 50%;
+  height: auto;
  }
 
 #resize {
