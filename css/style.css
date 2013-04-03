@@ -1,21 +1,59 @@
 /* 
 
-Project Name: Cookie Monster 
-Client: Cookie Monster
-Author: Chris Castiglione | www.twitter.com/castig 
-Developed @ General Assembly in NYC
-
 */
 
+
+h1 { 
+	color: black;
+}
+
+.leftside {
+	margin: 0px auto auto 55px;
+	padding: 50px;
+}
+
+#font {
+	font-family: Sintony, sans-serrif;
+	color: black;
+}
+
+#photo {
+	display: block;
+	margin: 40px;
+	margin-top: 50px;
+	padding: 2px;
+  border:5px solid #021a40;
+ }
+
+#resize {
+  width:30px;  
+  height: auto;
+}
+
+#social {
+	margin-left: 0px;
+}
+
+#button {
+	margin-top: 30px;
+}
+
+ul li {
+	list-style: none;
+	display: inline;
+	}
+
 body {
-	/* set up a background image */
 	
-	
-	/* the follow is the code to have the image display as a full page */
-	background-position: center;
+background-image: url(../images/bg.jpg);
+background-position: center;
 	background-attachment: fixed;
-	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 }
+
+
+
+
+
+
+
