@@ -2,6 +2,14 @@
 
 */
 
+a {
+	font-size: 19px;
+	
+}
+
+a:hover {
+	font-decoration: none;
+}
 
 h1 { 
 	color: black;
@@ -38,6 +46,7 @@ h1 {
 
 #social {
 	margin-left: 0px;
+	margin-top: 35px;
 }
 
 #button {
